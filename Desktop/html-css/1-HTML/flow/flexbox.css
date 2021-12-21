@@ -1,0 +1,33 @@
+#flexbox{
+    background: cyan;
+    width: 80%;
+    height: 200px;
+    margin: 50px auto;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column-reverse;
+    /* justify content: controle axe principal(horizontal)
+     align-item: controle axe secondaire (vertical) */
+}
+.element{
+    border: 3px solid blue;
+    background: chartreuse;
+    font-size: 2em;
+}
+
+.element:nth-child(1){
+    flex:2;
+    order:2;
+    margin: -20px;
+}
+.element:nth-child(2){ 
+    flex:2;
+    order:3;
+    align-self: flex-start;
+}
+.element:nth-child(3){
+    flex:2;
+    order:1;
+    align-self: flex-end;
+}

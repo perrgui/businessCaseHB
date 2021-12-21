@@ -1,0 +1,11 @@
+a[href]{
+ border:groove black 1px;
+
+}
+[href^="https"]{}
+/* si on voit ^= qui commence par 
+si on voit $= veut dire qui finit par 
+
+on peut écrire "h1:not(.titre)" en css afin de pouvoir selectionner tous les h1 qui n'ont pas la classe .titre! trop puissant
+
+*/

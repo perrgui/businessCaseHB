@@ -1,0 +1,109 @@
+html{
+    font-size: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+/* global{
+    width: 1200px;
+    margin: auto; 
+ } */ /* dans le cas ou on doit avoir un site qui n'est pas de 100% la taille page mais on la veut centrée  */
+
+ /* dans le cas ou l'on veut garder les borders mais qu'elle ne forcent pas le retour a la ligne des containers, on va utiliser box-sizing:border-box afin de leur permettre de se rejoindre  */
+header{
+    width:100%;
+    height: 160px;
+    background: url(img/raisins.png) rgb(37, 33, 33);
+}
+header img{
+    position:relative;
+    top: 1.5em;
+    left: 1em;
+}
+section{
+    width: 80%;
+    height: 600px; 
+    background: lightgrey;
+    float: left;
+}
+#tableau{
+    width: 90%;
+    height: 60%;
+    position: relative;
+    left:100px;
+}
+#tableau td{
+    border: 2px solid white;
+
+}
+#tableau img{
+    max-width: 100%;
+}
+#quote{
+    border: lightpink solid 2px;
+    text-align: center;
+}
+nav{
+    width: 20%;
+    height: 600px;
+    background: plum;
+    float: left;
+    }
+    #recherche li{
+        list-style-type: none;
+        padding: 10px;
+        margin: 5px;
+        background: rgb(37, 33, 33);
+        text-align:center;
+        
+    }
+    #recherche li a{
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+    footer{
+        width: 100%;
+        height:50px;
+        border: solid 1px; 
+        clear: both;
+        background: rgb(37, 33, 33);
+        color: lightgray;
+    }
+    footer p{
+        margin-left: 10px;
+    }
+    footer a{
+        color: plum;
+    }
+
+    @media only all and (max-width:500px){
+        body{
+            margin: 0px;
+        }
+        #global{
+            width: 100%;
+            margin: 0px;
+            display: flex;
+            flex-direction: column;
+        }
+        header{
+            justify-content:center; 
+            width: 100%;
+            order: 1;
+        }
+        section{
+            order: 2;
+
+        }
+        nav{
+            width: 100%;
+            order: 3;
+        }
+        footer{
+            text-align: center;
+            width: 100%;
+            order:3;
+        }
+    }

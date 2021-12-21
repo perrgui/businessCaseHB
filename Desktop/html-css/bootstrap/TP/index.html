@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="../TP/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../TP/css/styles.css">
+</head>
+<body>
+
+    <!-- 
+        1 seul container ou container-fluid
+        .container -> .row
+        .row -> .col
+        .col -> .row (optionnel)
+    -->
+
+    <div class="container">
+
+        
+        <div class="row bg-black" id="bandeau">
+            <div class="col d-flex justify-content-center align-items-center">
+                <img src="../../1-HTML/img-tp/logo_gris.png" class="bg-black img-fluid max-width: 20% height: auto"></img>
+            </div>
+        </div>
+
+        <div class="row mt-3 flex-column-reverse flex-md-row">
+
+            <div class="col-md-4 col-lg-3 d-flex flex-column justify-content-end" id="gauche">
+                <a href="#" class=" btn btn-outline-secondary btn-sm" data-bs-toggle="button">Inscrivez-vous à la newsletter</a>
+                <!-- <div class="flex-fill"></div> -->
+                <a href="#" class=" btn btn-outline-secondary btn-sm" data-bs-toggle="button">Disponibles pour toute question</a>
+                <a href="#" class="btn btn-outline-secondary btn-sm" data-bs-toggle="button">Retours et échanges</a>
+                <a href="#" class="btn btn-outline-secondary btn-sm" data-bs-toggle="button">Livraison sûre</a>
+            </div>
+
+            <div class="col-md-8 col-lg-9" id="droite">
+                
+                                <div class="col-md-6 col-lg-4  d-flex justify-content-center align-items-center ">
+                                    <div class="row m-3 g-0">
+                                        <div class="card" style="width: 18rem;">
+                                            <div class="col-4 ">
+                                                <img src="../../1-HTML/img-tp/cat_animaux.png" class="img-fluid rounded-start" alt="ce genre de personnes">
+                                            </div>
+                                                <div class="col-8">
+                                                    <div class="card-body">
+                                                        <p>personnes</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>    
+
+                        <div class="col-md-6 col-lg-4  d-flex justify-content-center align-items-center ">
+                            <div class="card mb-1" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-md-1">
+                                    <img src="../../1-HTML/img-tp/cat_paysages.png" class="img-fluid rounded-start" alt="...">
+                                  </div>
+                                  <div class="col-md-8">
+                                    <div class="card-body">
+                                       <p class="card-text">animaux</p>
+
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 h_100_px d-flex justify-content-center align-items-center bg-warning ">Paysages</div>
+                </div>
+                <div class="row">
+
+                        <div class="col-lg-8 offset-lg-4">
+                            <div class="row flex-column flex-md-row">
+                            <div class="col d-flex justify-content-center align-items-center">
+                                <a href="#">Nos nouveautés</a>
+                            </div>
+                            <div class="col">
+                                <h2>Laissez-vous surprendre</h2>
+                                <p>texte</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col d-flex justify-content-end flex-column flex-md-row bg-black color-white">
+                <span href="#" class="me-auto">Tous droits réservés Ima'djinn</span>
+                <a href="#" class="flex-grow-1 btn btn-outline-light btn-sm mt-1 mb-1" data-bs-toggle="button bg-black b">Mentions légales</a>
+                <a href="#" class="flex-grow-1 btn btn-outline-light btn-sm mt-1 mb-1" data-bs-toggle="button bg-black">CGV</a>
+                <a href="#" class="flex-grow-1 btn btn-outline-light btn-sm mt-1 mb-1" data-bs-toggle="button bg-black">FAQ</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

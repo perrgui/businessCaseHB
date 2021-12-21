@@ -1,0 +1,15 @@
+header{
+    height: 200px;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    border: 1px solid;
+    position: relative;
+    /* top: 30px; */
+    /* left:50px; */
+    /* margin-top: 35px; */
+    /* margin-left: 60px; */
+}

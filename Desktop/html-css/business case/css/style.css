@@ -1,0 +1,119 @@
+/* [class^="col"]{
+    border:1px solid blue;
+}
+
+.row{
+    border:1px solid red;
+} */
+/*
+********************HEADER*****************
+*/
+#hcard {
+  background: url(../img/peacock-feathers3.jpg);
+  height: 400px;
+  object-fit: cover;
+}
+.card-title {
+  color: #28760d;
+  text-align: center;
+}
+/* .promCard {
+  width: 150px;
+  height: 150px;
+}
+#promotion {
+  position: absolute;
+  top: 150px;
+  left: 60px;
+
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+#promoButton {
+  position: absolute;
+  top: 220px;
+  right: 30px;
+} */
+
+/*
+*************** section promotion***********
+*/
+/* #best-seller {
+  position: absolute;
+  top: 150px;
+  right: 60px;
+
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+#bestSelButton {
+  position: absolute;
+  top: 220px;
+  left: 30px;
+} */
+.outerRectangle {
+  position: relative;
+  top: 100px;
+
+  height: 300px;
+  width: 450px;
+}
+#outR1 {
+  left: 100px;
+  float: left;
+  background: #829eb9;
+}
+#outR2 {
+  background: #6ed33a;
+  left: 300px;
+  float: left;
+}
+.titrePromo {
+  color: #28760d;
+  font-size: xx-large;
+  margin: 2rem;
+}
+#titrePromoRight {
+  position: relative;
+  left: 210px;
+}
+.promoText {
+  position: absolute;
+  left: 50%;
+  color: white;
+  font-size: larger;
+}
+#promoTexRight {
+  top: 130px;
+  left: 50px;
+}
+.imgPromCards {
+  margin-bottom: -150px;
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+#imgPromCardsRight {
+  left: 100px;
+}
+.promoButton {
+  position: relative;
+  top: 250px;
+  left: 50px;
+  border-radius: 50px;
+  background-color: white;
+  border: 0;
+  padding: 10px 20px;
+  color: #e9852a;
+  font-size: x-large;
+}
+#promoButtonLeft {
+  top: 210px;
+  left: 250px;
+}

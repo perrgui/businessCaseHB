@@ -1,0 +1,21 @@
+
+[class^=col]{
+    border: 2px solid red;
+}
+#header{
+    height: 200px;
+}
+#gauche{
+    height: 500px;
+}
+#droite{
+    height: 500px;
+}
+.h_100{
+    height:100px;
+}
+@media only all and (min-width:576px){
+    #header{
+        height: 200px;
+    }
+}

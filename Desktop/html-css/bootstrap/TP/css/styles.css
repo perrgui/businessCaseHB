@@ -1,0 +1,27 @@
+[class^='col']{
+    border:1px solid;
+}
+#bandeau{
+    height:auto;
+}
+#gauche{
+    min-height:0;
+}
+#droite{
+    min-height:0;
+}
+.h_100_px{
+    height:100px;
+}
+/* écrans md et plus grands */
+@media only all and (min-width:768px){
+    #bandeau{
+        height:200px;
+    }
+    #gauche{
+        min-height:400px;
+    }
+    #droite{
+        min-height:400px;
+    }
+}

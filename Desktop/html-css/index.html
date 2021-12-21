@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<tml>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- 
+        1 seul container ou container-fluid
+        .container -> .row
+        .row -> .col
+        .col -> .row (optionnel)
+    -->
+
+    <div class="container">
+
+        <div class="row bg-dark" id="bandeau">
+            <div class="col d-flex justify-content-center align-items-center">
+                <img src="img/logo_gris.png" class="w-25" alt="Ima'djinn">
+            </div>
+        </div>
+
+        <div class="row flex-column-reverse flex-md-row">
+
+            <div class="col-md-4 col-lg-3 d-flex flex-column justify-content-end bg-light" id="gauche">
+                <a href="#" class="btn btn-secondary my-2">Inscrivez-vous à la newsletter</a>
+                <div class="flex-fill"></div>
+                <a href="#" class="btn btn-outline-secondary my-1">Disponibles pour toute question</a>
+                <a href="#" class="btn btn-outline-secondary my-1">Retours et échanges</a>
+                <a href="#" class="btn btn-outline-secondary my-1 mb-2">Livraison sûre</a>
+            </div>
+
+            <div class="col-md-8 col-lg-9" id="droite">
+                <div class="row m-3">
+                    <div class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
+                        <div class="card m-2">
+                            <div class="row g-0">
+                                <div class="col-md-5">
+                                    <img src="img/cat_personnes.png" class="img-fluid rounded-start" alt="personnes">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body h-100 d-flex justify-content-center align-items-center">
+                                        <h5 class="card-title">Personnes</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
+                        <div class="card m-2">
+                            <div class="row g-0">
+                                <div class="col-md-5">
+                                    <img src="img/cat_animaux.png" class="img-fluid rounded-start" alt="animaux">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body h-100 d-flex justify-content-center align-items-center">
+                                        <h5 class="card-title">Animaux</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center">
+                        <div class="card m-2">
+                            <div class="row g-0">
+                                <div class="col-md-5">
+                                    <img src="img/cat_paysages.png" class="img-fluid rounded-start" alt="paysages">
+                                </div>
+                                <div class="col-md-7">
+                                    <div class="card-body h-100 d-flex justify-content-center align-items-center">
+                                        <h5 class="card-title">Paysages</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+                <div class="row mx-4">
+                    <div class="col-lg-8 offset-lg-4">
+                        <div class="row flex-column flex-md-row" >
+                            <div class="col d-flex justify-content-center align-items-center rounded-start rounded-3 fond-sombre">
+                                <a href="#" class="btn btn-primary w-100 btn-lg">Nos nouveautés</a>
+                            </div>
+                            <div class="col fond-sombre">
+                                <h2 class="text-white">Laissez-vous surprendre</h2>
+                                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, fugit mollitia eveniet, ad commodi aliquid a labore error dolores earum ut harum cupiditate maiores possimus quos illo quisquam dolorem laborum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row bg-dark">
+            <div class="col d-flex justify-content-end flex-column flex-md-row p-2">
+                <span href="#" class="me-auto text-white mt-2">Tous droits réservés Ima'djinn</span>
+                <a href="#" class="btn btn-outline-light mx-2">Mentions légales</a>
+                <a href="#" class="btn btn-outline-light mx-2">CGV</a>
+                <a href="#" class="btn btn-outline-light mx-2">FAQ</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

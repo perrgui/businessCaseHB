@@ -1,0 +1,13 @@
+/* container-fluid fait que quelque soir la taille 100% de l'écran */
+[class^="container-fluid"]{
+    background: cyan;
+
+}
+[class^="col"]{
+    background: pink;
+    border: 1px solid purple;
+}
+#ol{
+    border: purple 1px solid;
+    background:rebeccapurple;
+}

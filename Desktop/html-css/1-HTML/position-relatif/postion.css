@@ -1,0 +1,31 @@
+#haut{
+background: blue;
+height: 50px;
+width: 100%;
+}
+#gauche{
+background: red;
+height: 50px;
+width: 50%;
+/*display: inline-block;
+position: float;*/
+float: left;
+}
+#around{
+    background: red;
+}
+#droite{
+background: yellow;
+min-height: 50px;
+width: 50%;
+float: left;
+/*display: inline-block;
+vertical-align: top;*/
+/*bord haut des deux va se blocker sur le top*/
+}
+#bas{
+background: green;
+min-height: 50px;
+width: 100%;
+clear: both;/*permet de prendre en compte les éléments float afin de continuer l'affichage a la suite*/
+}
